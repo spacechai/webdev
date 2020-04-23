@@ -11,19 +11,20 @@ h1 {
  	color: #66BFBF ;
  	margin: 50px auto 0 auto;
  	font-weight: 700;
- 	font-size: 3rem;
+ 	font-size: 3em;
  	
 }
 
-h2 { font-size: 2rem;
+h2 { font-size: 2em;
 	 color: #66BFBF;
 	 font-weight: 700;
 
  }
 
 h3 { 
-	color: #11999E;
+	color: #66BFBF;
 	font-weight: bold;
+	font-size: 1.5em;
 	 }
 
 p {
@@ -39,6 +40,16 @@ p {
 a {
 	color: #11999E;
 }
+
+
+hr {
+	width: 5% ;
+	border: dotted 10px #EAF6F6;
+	border-bottom: none;
+	margin: 50px auto;
+
+}
+
 .top-container {
 	padding-top: 100px;
 	padding-bottom: 250px;
@@ -46,15 +57,6 @@ a {
 	background-color: #e1f2fb;
 }
 
-hr {
-	width: 5% ;
-	border-top: dotted 10px #EAF6F6;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 0;
-	margin: 50px auto;
-
-}
 .skill-row {
 	width: 50%;
 	margin: 100px auto;
@@ -64,6 +66,20 @@ hr {
 
 .contact-me {
 	line-height: 2;
+	margin: auto;
+}
+
+.contact {
+	width: 40%;
+	margin: auto;
+	line-height: 2;
+}
+
+.profileimg {
+	width: 12.5%;
+	margin-top: 50px;
+	background-color: #e1f2fb; 
+	border-radius: 50%;
 }
 
 .htmlimg {
@@ -71,25 +87,27 @@ hr {
 	height:auto;
 	float: left;
 	margin-right: 30px;
+	background-color: #e1f2fb; 
+	border-radius: 50%;
 }
 
 .cssimg {
+
 	width: 25%;
-	height:auto;
+	height: auto;
 	float: right;
 	margin-left: 30px;
+	background-color: #e1f2fb; 
+	border-radius: 50%;
 }
 
-.profileimg {
-	width: 15%;
-	margin-top: 50px;
-}
+
 
 .btn {
-	border-radius: 20px;
+	border-radius: 15px;
 	font-size: 16px;
 	font-weight: 700;
-	padding: 10px;
+	padding: 7px;
 	color: #FFFFFF;
 	background-color: #66BFBF;
 	text-decoration: none;
@@ -98,6 +116,12 @@ hr {
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.btn:hover {
+	background-color: #FFFFFF;
+	color: #66BFBF;
+	border: solid 2px #66BFBF ;
 }
 
 
@@ -110,9 +134,15 @@ hr {
 
 .cloud2 {
 	position: absolute;
-	left: 300px;
+	left: 10%;
 	bottom: 300px;
 
+}
+
+.cloud3 {
+	position: absolute;
+	right: 40%;
+	bottom: 20%;
 }
 
 .middle-container {
@@ -122,13 +152,20 @@ hr {
 
 .bottom-container {
 	background-color: #e1f2fb;
-	padding: 10px;
+	padding: 30px;
 }
 
 .footer-link {
 	color: #11999E; 
 	font-weight: 500;
+	text-decoration: none;
+	margin-left: 30px;
 
+}
+
+
+.footer-link:hover {
+	color: #FFFFFF;
 }
 .credits {
 	color: #EAF6F6;
